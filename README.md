@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ⚡ Noor Ul Huda — Interactive Portfolio
 
-## Getting Started
+An interactive developer portfolio built with **Next.js 14**, **Tailwind CSS**, **Framer Motion**, and an interactive **Spline 3D** canvas. Designed to showcase applied machine learning pipelines, autonomous agents, and core systems engineering projects.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Live Demo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **URL:** portfolio-omega-umber-46.vercel.app
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ✨ Features
 
-## Learn More
+- **Interactive 3D Avatar**: Real-time Spline 3D model embedded seamlessly with cursor interaction.
+- **Hero & Identity**: Modern typographical hero section tailored for AI & Systems Engineering.
+- **One-Click Actions**:
+  - Direct clipboard interaction for instant email copying (`hudaraja1122@gmail.com`).
+  - Native resume download trigger directly from static assets.
+- **Project Showcase**: Clean UI cards highlighting core architecture tags, GitHub links, and domain problems solved.
+- **Modern Performance**: Zero layout shifts, optimized static delivery, and responsive layouts across all device sizes.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Framework:** Next.js (App Router, React)
+- **Styling:** Tailwind CSS
+- **Animations:** Framer Motion
+- **3D Graphics:** Spline 3D
+- **Icons:** Lucide React
+- **Deployment:** Vercel
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📂 Project Structure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```text
+my-portfolio/
+├── app/
+│   ├── layout.tsx         # Root HTML structure and metadata
+│   ├── page.tsx           # Main landing page view
+│   └── globals.css        # Tailwind directives and core variables
+├── components/
+│   ├── Hero.tsx           # Navigation, 3D Canvas, metrics, and primary CTAs
+│   └── Projects.tsx       # Featured project grid and architecture tags
+├── public/
+│   └── resume.pdf         # Downloadable CV asset
+├── package.json
+└── tailwind.config.ts
