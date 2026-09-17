@@ -88,7 +88,7 @@ export default function Hero() {
             </button>
 
             <a
-              href="https://github.com"
+              href="https://github.com/hudaraja1122-sys"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3.5 bg-white dark:bg-zinc-900 hover:bg-zinc-50 dark:hover:bg-zinc-800/80 border border-zinc-200 dark:border-zinc-700 text-zinc-800 dark:text-zinc-200 font-medium rounded-xl text-sm transition-all shadow-sm"

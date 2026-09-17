@@ -9,28 +9,28 @@ const projects = [
     description: "Autonomous agent system that orchestrates web synthesis, paper digestion, and automated reporting using Python & LLM workflows.",
     tags: ["Autonomous Agents", "Python", "Gradio", "Hugging Face"],
     icon: Bot,
-    github: "https://github.com",
+    github: "https://github.com/hudaraja1122-sys",
   },
   {
     title: "AI-Powered Business Intelligence (Nexus BI)",
     description: "Analytical intelligence backend pairing FastAPI and DuckDB with natural language querying for automated dataset insight discovery.",
     tags: ["DuckDB", "FastAPI", "Next.js", "Python"],
     icon: Database,
-    github: "https://github.com",
+    github: "https://github.com/hudaraja1122-sys",
   },
   {
     title: "TenderLens AI Procurement Monitor",
     description: "Automated tender monitoring and intelligence system utilizing n8n workflows, Next.js, and Supabase for real-time opportunity classification.",
     tags: ["Workflow Automation", "Supabase", "Next.js", "AI Logic"],
     icon: Terminal,
-    github: "https://github.com",
+    github: "https://github.com/hudaraja1122-sys",
   },
   {
     title: "OS Simulator & Core Algorithms",
     description: "Custom system simulator in C++ featuring multi-level CPU scheduling, virtual memory management, and graph-based shortest-path routing.",
     tags: ["C++", "OS Internals", "Graph Algorithms", "Data Structures"],
     icon: Cpu,
-    github: "https://github.com",
+    github: "https://github.com/hudaraja1122-sys",
   },
 ];
 
@@ -82,6 +82,7 @@ export default function Projects() {
                   target="_blank"
                   rel="noreferrer"
                   className="text-zinc-400 hover:text-zinc-900 dark:hover:text-white p-1 transition-colors"
+                  aria-label={`View ${proj.title} on GitHub`}
                 >
                   <ExternalLink size={18} />
                 </a>
